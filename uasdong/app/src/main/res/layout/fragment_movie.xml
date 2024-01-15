@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieFragment">
+    <ImageView
+        android:id="@+id/imgMovie"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ayat2cinta2" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:text="AYAT AYAT CINTA 2"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/Deskription"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:maxLines="5"
+        android:text="The days of FAHRI's life were filled with sorrow and efforts to find the wife he loved so much, AISHA. FAHRI (Fedi Nuril) chooses to live in Edinburgh, Scotland. A city that AISHA really likes. FAHRI works as a respected lecturer and researcher at a well-known university in the city. In living his daily life, FAHRI is only accompanied by HULUSI (Pandji Pragiwaksono), his Turkish household assistant. His politeness and friendly attitude made FAHRI liked by many people, such as Grandma Catarina (Dewi Irawan), a Jewish woman who lived not far from his house. However, there are also those who oppose and even hate him, such as KEIRA (Chelsea Islan), a Scottish-born girl who is obsessed with becoming a famous violinist. One day, FAHRI met HULYA (Tajtana Saphira), a Turkish-German girl who was taking a master's degree in Edinburgh who was still related to AISHA. HULYA's arrival actually triggers FAHRI's sad memories. Can FAHRI achieve its determination to improve the image of Islam and Muslims in this first world country?" />
+
+    <Button
+        android:id="@+id/ayatayatcinta2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription"
+        android:text="Watch Trailer Now"
+        android:textSize="10sp"
+        android:onClick="playAyatayatcinta2Trailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie2"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="190dp"
+        android:src="@drawable/oui" />
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="190dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="3 Idiot Brother "/>
+
+    <TextView
+        android:id="@+id/Deskription2"
+        android:layout_width="287dp"
+        android:layout_height="89dp"
+        android:layout_below="@+id/tvTitle2"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:text="3 Idiots, as the title suggests, this film is about 3 students majoring in mechanical engineering at the Imperial College of Engineering (ICE) They endured the ups and downs of the tough world of studying at ICE, while enduring the oppression and pressure of the ICE Director,."
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/tigaidiot"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription2"
+        android:text="Watch Trailer Now"
+        android:textSize="10sp"
+        android:onClick="playtigaidiotTrailer"/>
+
+    <ImageView
+        android:id="@+id/imgMovie3"
+        android:layout_width="120dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:src="@drawable/tendanganlangit" />
+
+    <TextView
+        android:id="@+id/tvTitle3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="380dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="Tendangan dari Langit "/>
+
+    <TextView
+        android:id="@+id/Deskription3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle3"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:maxLines="5"
+        android:text="Tells the story of Wahyu, a 16 year old boy who, as his name suggests, was given by God the extraordinary ability to play football. Wahyu lives in Langitan Village on the slopes of Mount Bromo. His father was a hot drink seller in the volcano tourist area."
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/tdl"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/imgMovie"
+        android:layout_below="@id/Deskription3"
+        android:text="Watch Trailer Now"
+        android:textSize="10sp"
+        android:onClick="playtdlTrailer"/>
+
+
+
+</RelativeLayout>
